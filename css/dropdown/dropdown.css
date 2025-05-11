@@ -1,0 +1,43 @@
+#dropdown{                   /*yo line bhayena bhane aboutme ko side ma hover garda ni content dekhaidinxa*/
+    display: inline-block;
+}
+#dropdown button{            /*for button*/
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: hwb(25 12% 18%);
+    border: 1px solid;
+    cursor: pointer;                  /*button ma hover garda cursor change hunxa*/
+}
+
+
+#dropdown #content{           /*for content i.e options*/
+    position: absolute;               /*button sarda ni content button sangai sarxa*/
+    background-color:skyblue;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px;
+    display: none;                    /*content disappers*/
+
+
+}
+
+#dropdown a{                    /*for options*/
+    display: block; /*treats options as blocks*/
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+#dropdown:hover #content{           
+    display: block; /*content reappers*/
+}
+
+#dropdown:hover button{      
+    background-color: grey;
+}
+
+
+
+#dropdown a:hover{
+    background-color: grey;
+}
+
+

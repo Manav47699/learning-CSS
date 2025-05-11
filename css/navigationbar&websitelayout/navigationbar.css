@@ -1,0 +1,60 @@
+#bar ul{
+    list-style-type: none;
+    background-color: aqua;
+   
+    text-align: center;
+    
+    overflow: hidden;                /*added for hrizontal*/
+    
+}
+#bar a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+#bar a:hover{
+    background-color: grey;
+}
+#bar li{                            /*added for horizontal*/
+    float: left;
+
+}
+
+
+
+
+body{                                /*width ra padding balance gardinxa yo line le*/
+    box-sizing: border-box;
+}
+
+header{
+    background-color: cadetblue;
+}
+
+main aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+main section
+{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+main article{
+    width: 20%;
+    float: left;
+    padding: 10px;
+
+}
+
+
+footer{
+    background-color: orange ;
+    text-align: center;
+    display: block;
+    
+    text-align: center;
+    clear: both;                /*yo line lekhena bhane mathiko text haru sanga overlap hunxa*/
+}

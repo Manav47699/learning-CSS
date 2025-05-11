@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    
+}
+
+#p1{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+
+}
+
+#s1{
+
+    background-color: white;
+    font-family: "Arial";
+    font-size: x-large;
+}
+#p2{
+    color: white;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 30px;
+    
+}
+h1{
+    color: white;
+    text-shadow: 50px 3px 1px red;
+    
+    
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    box-shadow: 30px 3px 5px blue , 1000px 3px 5px;
+    color: white;
+    margin-left: 100px;
+    
+}
+
+
+#box2
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    border: 30px solid;
+
+    border-color: aliceblue;
+    
+}

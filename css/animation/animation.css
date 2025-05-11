@@ -1,0 +1,15 @@
+div{
+    animation: typing 4s steps(40) 1s forwards, erasing 2s steps(40) 5s 1 forwards;
+    font-size: 200px;
+    font-weight: bolder;
+    width: 0;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width:100%
+    }
+}

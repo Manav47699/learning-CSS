@@ -1,0 +1,44 @@
+
+#d1 + p{
+    background-color: blueviolet;
+}
+
+#pa{
+    display: none;
+}
+
+
+#s1:hover #pa{
+
+    font: 500;
+    color: brown;
+    display: block;
+}
+
+#s1:active{
+    background-color: blue;
+}
+
+#s1:visited{
+    background-color: gray;
+}
+
+h1::first-letter{
+    font-style: oblique;
+    color: cadetblue;
+
+}
+/*
+ul li::marker{
+    content: ⚽;
+
+}
+*/
+#c::before{
+    content: "🏏";
+}
+
+
+
+
+
